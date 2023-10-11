@@ -7,27 +7,29 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="217dp"
-        android:layout_height="51dp"
+        android:id="@+id/texto"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
         android:width="30sp"
-        android:text="Pulsa el botón!"
+        android:text="Pulsa abajo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/boton"
         android:layout_width="108dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
         android:width="22sp"
-        android:text="ACEPTAR"
+        android:text="Pulsame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/texto"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
