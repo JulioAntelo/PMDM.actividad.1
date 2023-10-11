@@ -28,9 +28,7 @@ class MainActivity : AppCompatActivity() {
                 button.isEnabled = false
                 val toast = Toast.makeText(this,"Le has dado demasiadas veces",Toast.LENGTH_SHORT)
                 toast.show()
-
             }
         }
-
     }
 }
